@@ -979,7 +979,7 @@ class TaskAssemblyCreateSimulation(QtCore.QObject):
         self.currentFrm = self.form.frameSlider.value()
         self.startFrm = 1
         self.endFrm = self.form.frameSlider.maximum()
-        if self.startFrm <= self.endFrm:
+        if self.startFrm >= self.endFrm:
             return
 
         self.fps = self.simFeaturePy.jFramesPerSecond
