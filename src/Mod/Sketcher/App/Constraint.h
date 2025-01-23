@@ -40,6 +40,7 @@ namespace Sketcher
  'NumConstraintTypes'. This is mandatory in order to keep the handling of constraint types upward
  compatible which means that this program version ignores later introduced constraint types when
  reading them from a project file. They also must be added to the 'type2str' array in this file.
+Adding a new comment to test the self hosted runner.
  */
 enum ConstraintType : int
 {
